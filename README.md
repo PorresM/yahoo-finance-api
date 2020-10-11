@@ -15,7 +15,7 @@ The `fetch` method requires a stock symbol followed by Modules provided as varar
 The following example requests `summaryProfile` and `price` modules using the Yahoo Finance API.
 
 ```java
-import com.kipos.yahoofinanceapi.*;
+import com.mporres.yahoofinanceapi.*;
 
 public static void main(String[] args) {
     QuoteSummary quoteSummary = YahooFinanceApi.fetch(
