@@ -1,4 +1,4 @@
-# Yahoo Finance API
+# Yahoo Finance API [![Build Status](https://travis-ci.org/PorresM/yahoo-finance-api.svg?branch=develop)](https://travis-ci.org/PorresM/yahoo-finance-api)
 
 Library for accessing stock market data using the Yahoo Finance API.
 
