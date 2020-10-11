@@ -5,6 +5,8 @@
     <groupId>com.kipos</groupId>
     <artifactId>yahoo-finance-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
     <name>Yahoo Finance API</name>
     <description>Yahoo Finance API</description>
     <url>https://github.com/PorresM/yahoo-finance-api</url>

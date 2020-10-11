@@ -49,43 +49,6 @@ public class YahooFinanceApi {
             throw new YahooFinanceApiException("Error", e);
         }
 
-//        QuoteSummary quoteSummary = response.body().getQuoteSummary();
-
         return response.body().getQuoteSummary();
-    }
-
-    public static void main(String[] args) {
-        fetch("AAPL",
-                Modules.ESG_SCORE,
-                Modules.SEC_FILINGS,
-                Modules.UPGRADE_DOWNGRADE_HISTORY,
-                Modules.INSIDER_TRANSACTIONS
-//                Modules.ASSET_PROFILE,
-//                Modules.SUMMARY_PROFILE,
-//                Modules.SUMMARY_DETAIL,
-//                Modules.PRICE,
-//                Modules.INCOME_STATEMENT_HISTORY,
-//                Modules.INCOME_STATEMENT_HISTORY_QUARTERLY,
-//                Modules.BALANCE_SHEET_HISTORY,
-//                Modules.BALANCE_SHEET_HISTORY_QUARTERLY,
-//                Modules.CASH_FLOW_STATEMENT_HISTORY,
-//                Modules.CASH_FLOW_STATEMENT_HISTORY_QUARTERLY,
-//                Modules.DEFAULT_KEY_STATISTICS,
-//                Modules.FINANCIAL_DATA,
-//                Modules.CALENDAR_EVENTS,
-//                Modules.RECOMMENDATION_TREND,
-//                Modules.INSTITUTION_OWNERSHIP,
-//                Modules.FUND_OWNERSHIP,
-//                Modules.MAJOR_DIRECT_HOLDERS,
-//                Modules.MAJOR_HOLDERS_BREAKDOWN,
-//                Modules.INSIDER_HOLDERS,
-//                Modules.NET_SHARE_PURCHASE_ACTIVITY,
-//                Modules.EARNINGS,
-//                Modules.EARNINGS_HISTORY,
-//                Modules.EARNINGS_TREND,
-//                Modules.INDUSTRY_TREND,
-//                Modules.INDEX_TREND,
-//                Modules.SECTOR_TREND
-        );
     }
 }
